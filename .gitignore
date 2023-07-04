@@ -2,3 +2,7 @@ tags
 test.sh
 .luarc.json
 nvim
+<<<<<<< HEAD
+=======
+lazy-lock.json
+>>>>>>> add all
