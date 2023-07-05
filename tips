@@ -35,6 +35,7 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 '<C-q>, 'If telescopes finder is open this command will take the list and displays it in the quickfix list under the editor'
 '<C-w-w>', 'Switch between split buffers'
 '<C-b>', 'Toggle/Untoggle File explorer'
+'<C-r>', 'Reveal current buffer in the File explorer'
 ========GIT
 'n', '<leader>gf', 'Search [G]it [F]iles'
 'n', '<leader>gs', '[G]it [S]tatus'
