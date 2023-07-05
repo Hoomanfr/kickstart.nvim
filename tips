@@ -34,8 +34,13 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'gcc', 'comment/uncomment'
 '<C-q>, 'If telescopes finder is open this command will take the list and displays it in the quickfix list under the editor'
 '<C-w-w>', 'Switch between split buffers'
+========Neo Tree file explorer
 '<C-b>', 'Toggle/Untoggle File explorer'
 '<C-r>', 'Reveal current buffer in the File explorer'
+'a', 'Create file if you add / at the end it'll be new directory'
+'d', 'Delete file or directory'
+'r', 'Rename file or directory'
+'y/x/p', 'copy/cut/paste'
 ========GIT
 'n', '<leader>gf', 'Search [G]it [F]iles'
 'n', '<leader>gs', '[G]it [S]tatus'
