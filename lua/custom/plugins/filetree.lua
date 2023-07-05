@@ -12,6 +12,7 @@ return {
 				follow_current_file = true,
 			},
 			vim.keymap.set('n', '<C-b>', '<Cmd>Neotree toggle<CR>'),
+			vim.keymap.set('n', '<C-r>', '<Cmd>Neotree reveal<CR>'),
 		}
 	end,
 }
