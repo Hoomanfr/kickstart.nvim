@@ -36,7 +36,7 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 '<C-w-w>', 'Switch between split buffers'
 ========Neo Tree file explorer
 '<C-b>', 'Toggle/Untoggle File explorer'
-'<C-r>', 'Reveal current buffer in the File explorer'
+'<C-d>', 'Reveal current buffer in the File explorer'
 'a', 'Create file if you add / at the end it'll be new directory'
 'd', 'Delete file or directory'
 'r', 'Rename file or directory'
