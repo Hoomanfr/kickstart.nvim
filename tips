@@ -41,6 +41,8 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'd', 'Delete file or directory'
 'r', 'Rename file or directory'
 'y/x/p', 'copy/cut/paste'
+'S', open file in vertical
+'s', open file in horizontal
 ========GIT
 'n', '<leader>gf', 'Search [G]it [F]iles'
 'n', '<leader>gs', '[G]it [S]tatus'
