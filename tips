@@ -78,3 +78,5 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'n', '<leader>b', 'Debug: Toggle Breakpoint'
 'n', '<leader>B', 'Breakpoint condition'
 'n', '<F7>', 'Debug: See last session result.'
+=======Github Copilot
+'i', '<C-j>', 'Accept suggestion'

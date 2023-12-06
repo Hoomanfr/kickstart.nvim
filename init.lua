@@ -86,7 +86,12 @@ vim.opt.shiftwidth = 3
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
+<<<<<<< HEAD
 >>>>>>> mason
+=======
+-- copilot key mapping
+vim.api.nvim_set_keymap('i', '<C-J>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
+>>>>>>> copilot shortkey
 -- NOTE: Here is where you install your plugins.
 --  You can configure plugins using the `config` key.
 --
