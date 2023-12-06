@@ -87,8 +87,13 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> mason
 =======
+=======
+vim.opt.spelllang = 'en_us'
+vim.opt.spell = true
+>>>>>>> spell checker
 -- copilot key mapping
 <<<<<<< HEAD
 vim.api.nvim_set_keymap('i', '<C-J>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
