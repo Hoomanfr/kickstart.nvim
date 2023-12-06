@@ -43,8 +43,6 @@ return {
         'delve',
         'goimports',
         'gopls',
-        'rust-analyzer',
-        'rustfmt',
       },
     }
 
