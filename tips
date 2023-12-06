@@ -84,3 +84,4 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'n', 'z=', shows suggestions
 'n', ']s', go to next spell issue
 'n', '[s', go to prev spell issue
+'n', 'zg', add to list of good spells
