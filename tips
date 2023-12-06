@@ -11,7 +11,6 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'n', ']d', 'Go to next diagnostic message'
 'n', '<leader>e', 'Open floating diagnostic message'
 'n', '<leader>q', 'Open diagnostics list'
-'n', <leader>t', 'Open/Close terminal'
 '<leader>rn', '[R]e[n]ame'
 '<leader>ca', '[C]ode [A]ction'
 'gd', '[G]oto [D]efinition
@@ -34,6 +33,7 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'gcc', 'comment/uncomment'
 '<C-q>, 'If telescopes finder is open this command will take the list and displays it in the quickfix list under the editor'
 '<C-w-w>', 'Switch between split buffers'
+'<C-\>', show/hide terminal
 ========Neo Tree file explorer
 '<C-b>', 'Toggle/Untoggle File explorer'
 '<C-d>', 'Reveal current buffer in the File explorer'
