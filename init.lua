@@ -90,8 +90,12 @@ vim.opt.shiftwidth = 2
 >>>>>>> mason
 =======
 -- copilot key mapping
+<<<<<<< HEAD
 vim.api.nvim_set_keymap('i', '<C-J>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
 >>>>>>> copilot shortkey
+=======
+vim.api.nvim_set_keymap('i', '<C-K>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
+>>>>>>> dropped rust things
 -- NOTE: Here is where you install your plugins.
 --  You can configure plugins using the `config` key.
 --
