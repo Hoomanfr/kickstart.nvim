@@ -60,7 +60,7 @@ vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.spelllang = 'en_us'
-vim.opt.spell = true
+vim.opt.spell = false
 -- copilot key mapping
 vim.api.nvim_set_keymap('i', '<C-K>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
 -- NOTE: Here is where you install your plugins.
