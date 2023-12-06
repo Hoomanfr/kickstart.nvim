@@ -70,11 +70,17 @@ if not vim.loop.fs_stat(lazypath) then
   }
 end
 vim.opt.rtp:prepend(lazypath)
+<<<<<<< HEAD
 
 <<<<<<< HEAD
 -- [[ Configure plugins ]]
 =======
 >>>>>>> add all
+=======
+vim.opt.tabstop = 3
+vim.opt.softtabstop = 3
+vim.opt.shiftwidth = 3
+>>>>>>> set tabstop
 -- NOTE: Here is where you install your plugins.
 --  You can configure plugins using the `config` key.
 --
