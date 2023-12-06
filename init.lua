@@ -92,8 +92,12 @@ vim.opt.shiftwidth = 2
 =======
 =======
 vim.opt.spelllang = 'en_us'
+<<<<<<< HEAD
 vim.opt.spell = true
 >>>>>>> spell checker
+=======
+vim.opt.spell = false
+>>>>>>> telescope
 -- copilot key mapping
 <<<<<<< HEAD
 vim.api.nvim_set_keymap('i', '<C-J>', 'copilot#Accept("<CR>")', { expr = true, silent = true })
