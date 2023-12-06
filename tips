@@ -33,6 +33,9 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'gcc', 'comment/uncomment'
 '<C-q>, 'If telescopes finder is open this command will take the list and displays it in the quickfix list under the editor'
 '<C-w-w>', 'Switch between split buffers'
+'<C-w-s>', 'Split current buffer horizontally'
+'<C-w-v>', 'Split current buffer vertically' 
+'<C-w-n>', 'Split new empty buffer horizontally
 '<C-\>', show/hide terminal
 ':mason', list of language servers 
 ========Neo Tree file explorer
