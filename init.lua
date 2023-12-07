@@ -259,10 +259,12 @@ require('lazy').setup({
 
   {
     -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
+    -- 'navarasu/onedark.nvim',
+    'askfiy/visual_studio_code',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'onedark'
+      -- vim.cmd.colorscheme 'onedark'
+      vim.cmd.colorscheme 'visual_studio_code'
     end,
   },
 
@@ -273,7 +275,8 @@ require('lazy').setup({
     opts = {
       options = {
         icons_enabled = false,
-        theme = 'onedark',
+        -- theme = 'onedark',
+        theme = 'visual_studio_code',
         component_separators = '|',
         section_separators = '',
         path = 1,
@@ -367,7 +370,6 @@ require('lazy').setup({
 =======
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
-
   -- NOTE: The import below automatically adds your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
   --    up-to-date with whatever is in the kickstart repo.
@@ -901,6 +903,5 @@ cmp.setup {
 >>>>>>> add all
   },
 }
-
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
