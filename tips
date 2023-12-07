@@ -85,3 +85,8 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 'n', ']s', go to next spell issue
 'n', '[s', go to prev spell issue
 'n', 'zg', add to list of good spells
+=======Testing
+'n', '<leader>tf', 'test current function'
+'n', '<leader>ta', 'test all functions'
+'n', '<leader>te', 'test explorer'
+'n', '<leader>to', 'test output'
