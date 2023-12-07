@@ -283,8 +283,8 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 require('telescope').setup {
   pickers = {
     find_files = {
-      hidden = true
-    }
+      hidden = true,
+    },
   },
   defaults = {
     vimgrep_arguments = {
@@ -295,7 +295,7 @@ require('telescope').setup {
       '--line-number',
       '--column',
       '--smart-case',
-      '-uu'
+      '-uu',
     },
     mappings = {
       i = {
