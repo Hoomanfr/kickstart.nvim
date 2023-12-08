@@ -38,6 +38,8 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 '<C-w-n>', 'Split new empty buffer horizontally'
 '<C-\>', show/hide terminal
 ':mason', list of language servers 
+========Vim tips
+use > or < in visual mode to move line to left or right after you press the > then you can continue moving by pressing . continously.
 ========Neo Tree file explorer
 '<C-b>', 'Toggle/Untoggle File explorer'
 '<C-d>', 'Reveal current buffer in the File explorer'
