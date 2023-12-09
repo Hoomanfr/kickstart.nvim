@@ -40,6 +40,9 @@ Checkout https://github.com/nvim-lua/kickstart.nvim/tree/master
 ':mason', list of language servers 
 ========Vim tips
 use > or < in visual mode to move line to left or right after you press the > then you can continue moving by pressing . continously.
+use w and b to move cursor word by word forward and backward
+use ctrl+y to scroll up
+use ctrl+e to scroll down
 ========Neo Tree file explorer
 '<C-b>', 'Toggle/Untoggle File explorer'
 '<C-d>', 'Reveal current buffer in the File explorer'
@@ -89,6 +92,10 @@ use > or < in visual mode to move line to left or right after you press the > th
 'n', 'zg', add to list of good spells
 =======Testing
 'n', '<leader>tf', 'test current function'
-'n', '<leader>ta', 'test all functions'
+'n', '<leader>ta', 'run all tests'
+'n', '<leader>tc', 'run current file tests'
 'n', '<leader>te', 'test explorer'
 'n', '<leader>to', 'test output'
+'n', '<leader>ts', 'stop tests'
+'n', '<leader>tn', 'go to next failed test'
+'n', '<leader>tp', 'go to previous failed test'
