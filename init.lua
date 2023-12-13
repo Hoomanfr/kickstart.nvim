@@ -257,16 +257,6 @@ require('lazy').setup({
     },
   },
 
-  {
-    -- Theme inspired by Atom
-    'navarasu/onedark.nvim',
-    -- 'askfiy/visual_studio_code',
-    priority = 1000,
-    config = function()
-      vim.cmd.colorscheme 'onedark'
-      -- vim.cmd.colorscheme 'visual_studio_code'
-    end,
-  },
 
   {
     -- Set lualine as statusline
@@ -276,7 +266,6 @@ require('lazy').setup({
       options = {
         icons_enabled = false,
         theme = 'onedark',
-        -- theme = 'visual_studio_code',
         component_separators = '|',
         section_separators = '',
         path = 1,
@@ -287,6 +276,7 @@ require('lazy').setup({
   {
     -- Add indentation guides even on blank lines
     'lukas-reineke/indent-blankline.nvim',
+    version = "2.20.8",
     -- Enable `lukas-reineke/indent-blankline.nvim`
 <<<<<<< HEAD
     -- See `:help ibl`
